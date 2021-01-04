@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 0 0 50px 0;
+    background-color: #ffffff;
+    height: 90px;
+    box-shadow: 0 5px 5px #777777;
+    user-select: none;
+}
+
+body{
+    background-image: url( 'https://merriam-webster.com/assets/mw/images/article/art-wap-article-main/gray-background-7131-98db5e6ffc4972baa4087760291cbc3e@1x.jpg');
+}
+
+/* Styling for navbar in a large viewport. Keeps the navbar to the right side of the header */
+#navCenter {
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    line-height: 74px;
+}
+
+/* Styling for navbar item colours by default */
+.nav-item:link, .nav-item:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+/* Styling for the active page navbar item */
+.active:link, .active:visited {
+    color: #333333;
+}
+
+/* Styling specifically for the last navbar item to have it flush with the wrapper */
+.navEnd {
+    margin-right: -15px;
+}
+
+.divider {
+    padding-top: 7px;
+    color: #cccccc;
+}
+
+/* Define the main body's background content */
+.wrapper {
+    margin-bottom: 50px;
+    display: block;
+    overflow: auto;
+    height: auto;
+    background-color: #ffffff;
+    border: solid 2px #dddddd;
+    padding: 10px 30px 10px 30px;
+}
